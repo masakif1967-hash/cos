@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<modules>
+  <module moduleId="org.eclipse.jst.jee.server:juchu01" serverId="ローカルホスト の Tomcat9 (Java11)"/>
+  <module moduleId="org.eclipse.jst.jee.server:juchu03" serverId="ローカルホスト の Tomcat9 (Java11)"/>
+  <module moduleId="org.eclipse.jst.jee.server:juchu02" serverId="ローカルホスト の Tomcat9 (Java11)"/>
+  <module moduleId="org.eclipse.jst.jee.server:juchu05" serverId="ローカルホスト の Tomcat9 (Java11)"/>
+  <module moduleId="org.eclipse.jst.jee.server:juchu04" serverId="ローカルホスト の Tomcat9 (Java11)"/>
+</modules>

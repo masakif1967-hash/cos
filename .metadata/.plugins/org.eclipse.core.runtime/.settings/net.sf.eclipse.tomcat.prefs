@@ -1,0 +1,5 @@
+contextsDir=C:/cos/pleiades/tomcat/8/conf/Catalina/localhost
+eclipse.preferences.version=1
+tomcatConfigFile=C:/cos/pleiades/tomcat/8/conf/server.xml
+tomcatDir=C:/cos/pleiades/tomcat/8
+tomcatVersion=tomcatV8

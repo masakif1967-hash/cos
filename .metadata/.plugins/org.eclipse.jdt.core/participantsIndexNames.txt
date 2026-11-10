@@ -1,0 +1,27 @@
+INDEX VERSION 1.131
+C:\cos2\pleiades\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2073738435.index
+\juchu01\src
+C:\cos\pleiades\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2023524284.index
+\juchu05\src
+C:\cos\pleiades\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3812215763.index
+\juchu04\src
+C:\cos\pleiades\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2543919708.index
+\juchu03\src
+C:\cos2\pleiades\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3420770010.index
+\juchu03\src
+C:\cos\pleiades\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3454938069.index
+\juchu5\src
+C:\cos2\pleiades\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2543919708.index
+\juchu03\src
+C:\cos2\pleiades\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3812215763.index
+\juchu04\src
+C:\cos\pleiades\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3471315114.index
+\juchu1\src
+C:\cos2\pleiades\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\201616947.index
+\juchu02\src
+C:\cos2\pleiades\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2023524284.index
+\juchu05\src
+C:\cos\pleiades\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2073738435.index
+\juchu01\src
+C:\cos\pleiades\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\201616947.index
+\juchu02\src

@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+C:\cos\pleiades\workspace\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+3172794558.index
+4011915322.index
+53139019.index
+38653295.index
+1023055389.index
+2255822656.index
