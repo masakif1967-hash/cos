@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="css/common1.css">
+<title>Office Goody</title>
+</head>
+<body>
+	<!-- コンテナ部分（ページ全体）-->
+	<div id="container">
+		<!-- ヘッダー部分 -->
+		<div id="header">
+			<h1>Office Goody</h1>
+			<h2>Customer Order System</h2>
+		</div>
+		<!-- コンテンツ部分 -->
+		<div id="contents">
+			<!-- コンテンツ内ヘッダー部分 -->
+			<div id="contents_header">
+				<p><small>COSD1000</small></p>
+				<h3>トップページ</h3>
+			</div>
+			<br>
+			<!-- コンテンツ内ナビゲーション部分 -->
+			<div id="contents_nav" align="center">
+				<form action="CosServlet" method="post">
+					ユーザーIDとパスワードを入力して”ログオン”ボタンを押して下さい。
+					<table>
+						<tr>
+							<td>ユーザーID</td>
+							<td><input type="text" name="userId"></td>
+						</tr>
+						<tr>
+							<td>パスワード</td>
+							<td><input type="password" name="password"></td>
+							<td><input type="submit" name="order" value="ログオン"></td>
+						</tr>
+					</table>
+				</form>
+				<br> <br>
+				<form action="CosServlet" method="post">
+					ユーザーを登録されていない方は”新規登録”ボタンを押してユーザー登録して下さい。
+					<table>
+						<tr>
+							<td><input type="radio" name="kokyaku" value="Houjin"
+								checked>法人</td>
+							<td><input type="submit" name="user" value="新規登録"></td>
+						</tr>
+					</table>
+				</form>
+				<br>
+			</div>
+			<hr>
+			<!-- コンテンツ内ボディ部分 -->
+			<div id="contents_body"></div>
+		</div>
+		<!-- フッター部分 -->
+		<div id="footer">
+			<address>&copy;Office Goody 2011 All rights reserved Office
+				Goody Co,Ltd.</address>
+		</div>
+	</div>
+</body>
+</html>
