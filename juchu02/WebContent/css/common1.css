@@ -1,0 +1,359 @@
+@charset "utf-8";
+
+/*==============================================================================
+** 【全体】ブラウザ標準CSSのリセット
+===============================================================================*/
+h1, h2, h3, p, ul, hr, table {
+	margin: 0px;
+	padding: 0px;
+}
+
+/*==============================================================================
+** 【全体】コンテナ部分（ページ全体）
+===============================================================================*/
+#container {
+	width: 90%;
+	margin: 0 auto;
+}
+
+/*==============================================================================
+** 【全体】ヘッダー部分
+===============================================================================*/
+#header {
+	padding: 10px;
+	background-color: #9999ff;
+}
+
+/*==============================================================================
+** 【全体】コンテンツ部分
+===============================================================================*/
+#contents {
+
+}
+
+#contents hr {
+	margin: 10px 10px;
+}
+
+/*==============================================================================
+** 【全体】フッター部分
+===============================================================================*/
+#footer {
+	clear: both;
+	padding: 10px;
+	background-color: #9999ff;
+	text-align: center;
+}
+
+/*==============================================================================
+** 【コンテンツ】ヘッダー部分
+===============================================================================*/
+#contents_header {
+	padding: 10px;
+}
+
+#contents_header h3 {
+	padding: 10px;
+	border: 3px solid black;
+	text-align: center;
+}
+
+/*==============================================================================
+** 【コンテンツ】ナビゲーション部分
+===============================================================================*/
+#contents_nav {
+	padding: 10px;
+}
+
+/*==============================================================================
+** 【コンテンツ】ボディ部分
+===============================================================================*/
+#contents_body {
+	padding: 10px;
+}
+
+/*==============================================================================
+** ユーザー情報
+** （使用画面：COSD1010、COSD1020、COSD1040、COSD1050）
+===============================================================================*/
+div.user_info {
+	width: 250px;
+	margin-left: auto;
+	margin-right: 0;
+	padding: 10px;
+}
+
+div.user_info p {
+	text-align: right;
+}
+
+div.user_info input {
+	width: 100px;
+}
+
+div.user_kenmap {
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #dd88bb;
+}
+/*==============================================================================
+** 商品カテゴリ検索
+** （使用画面：COSD1010、COSD1020）
+===============================================================================*/
+div.goods_category {
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*==============================================================================
+** カートの内容
+** （使用画面：COSD1010、COSD1020）
+===============================================================================*/
+div.cart_state {
+	width: 250px;
+	margin-left: auto;
+	margin-right: 0;
+	padding: 10px;
+}
+
+div.cart_state table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+div.cart_state th, div.cart_state td {
+	text-align: center;
+	border-bottom: 1px solid black;
+}
+
+/*==============================================================================
+** 商品リスト
+** （使用画面：COSD1020）
+===============================================================================*/
+div.goods_list {
+	padding: 20px 50px;
+}
+
+div.goods_list table {
+	width: 100%;
+}
+
+div.goods_list td {
+	border: 1px solid black;
+}
+
+div.goods_list th {
+	border: 1px solid black;
+	background-color: #ffaa99;
+}
+
+div.goods_list col.col_1 {
+	width: 200px;
+}
+
+div.goods_list col.col_2 {
+	width: 400px;
+}
+
+div.goods_list col.col_3 {
+	width: 100px;
+}
+
+div.goods_list col.col_4 {
+	width: 100px;
+}
+
+div.goods_list input {
+	width: 100%;
+}
+
+/*==============================================================================
+** 商品明細
+** （使用画面：COSD1030）
+===============================================================================*/
+div.goods_detail {
+	padding: 20px 50px;
+	background-color: #aabb77;
+}
+
+div.goods_detail img {
+	width: 200px;
+	height: 200px;
+	display: block;
+	float: left;
+}
+
+div.goods_detail th, div.goods_detail td {
+	border: 1px solid black;
+}
+
+/*==============================================================================
+** カートリスト
+** （使用画面：COSD1040、COSD1050）
+===============================================================================*/
+div.cart_list {
+	padding: 20px 50px;
+}
+
+div.cart_list table {
+	/*width: 100%;*/
+	empty-cells: hide;
+}
+
+div.cart_list th {
+	border: 1px solid black;
+	background-color: #ffaa99;
+}
+
+div.cart_list td {
+	border: 1px solid black;
+}
+
+div.cart_list col.col_1 {
+	width: 150px;
+}
+
+div.cart_list col.col_2 {
+	width: 450px;
+}
+
+div.cart_list col.col_3 {
+	width: 100px;
+}
+
+div.cart_list col.col_4 {
+	width: 100px;
+}
+
+div.cart_list col.col_5 {
+	width: 100px;
+}
+
+div.cart_list col.col_6 {
+	width: 100px;
+}
+
+/*==============================================================================
+** ユーザーフォーム
+** （使用画面：COSD1090、COSD1100）
+===============================================================================*/
+div.user_form {
+	padding: 20px 50px;
+}
+
+div.user_form table {
+	width: 100%;
+	empty-cells: hide;
+}
+
+div.user_form th, div.user_form td {
+	border: 1px solid black;
+}
+
+div.user_form th {
+	background-color: #ccffcc;
+}
+
+#cosd1090 table, #cosd1090 td, #cosd1090 th {
+	border: 1px solid #000000;
+}
+
+#cosd1100 table, #cosd1100 td, #cosd1100 th {
+	border: 1px solid #000000;
+}
+
+#errorMessage {
+	color: #ff0000;
+}
+
+/*==============================================================================
+** 支払う方法・お届け先の入力
+** （使用画面：COSD1060、COSD1070、COSD1080、COSD151E、COSD152E）
+===============================================================================*/
+#cosd1060 table {
+	width: 30em;
+	height: 15em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#cosd1070 table {
+	width: 40em;
+	height: 15em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#cosd151e table {
+	width: 40em;
+	height: 10em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#cosd1080 table {
+	width: 27em;
+	height: 15em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#cosd152e table {
+	width: 27em;
+	height: 10em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#cosd1060 th, #cosd1070 th, #cosd1080 th,
+	#cosd151e th, #cosd152e th {
+	text-align: left;
+	vertical-align: middle;
+}
+
+#cosd1060 td, #cosd1070 td, #cosd1080 td,
+	#cosd151e td, #cosd152e td {
+	text-align: left;
+	vertical-align: middle;
+}
+
+#cosd1070 td {
+	border-bottom: 1px dotted;
+}
+
+/*==============================================================================
+** 商品詳細説明
+** （使用画面：COSD1040、COSD1041）
+===============================================================================*/
+#goods_img {
+	float: left;
+	width: 50%;
+	text-align: center;
+}
+
+#goods_exp {
+	float: left;
+	width: 50%;
+}
+
+#goods_exp table {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#goods_exp th {
+	border: 1px solid #000000;
+	height: 40px;
+	text-align: left;
+	vertical-align: middle;
+}
+
+#goods_exp td {
+	border: 1px solid #000000;
+	height: 40px;
+	text-align: left;
+	vertical-align: middle;
+}
